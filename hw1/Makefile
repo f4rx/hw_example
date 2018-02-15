@@ -1,6 +1,6 @@
-INPUT_NAME="in.txt"
-PROG_NAME="solution"
-SRC_NAME="example.c"
+INPUT_NAME=""
+PROG_NAME="bin_solution"
+SRC_NAME="solution.c"
 
 all: build run clean
 .PHONY: all
@@ -23,7 +23,6 @@ exec_time:
 clean:
 	rm ${PROG_NAME}{0,2,3}
 	@echo "[OK] Cleanup finished"
-
 
 .PHONY: run
 run:
