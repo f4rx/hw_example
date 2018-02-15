@@ -23,6 +23,7 @@ int main(void) {
 
   printf("%d\n", is_st_empty(s));
   free(s);
+  return 0;
 }
 
 structure_t *init_st(int size) {
